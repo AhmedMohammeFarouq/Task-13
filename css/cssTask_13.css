@@ -1,0 +1,114 @@
+/* Start Variables*/
+
+/* End Variables*/
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    
+}
+
+
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.section img {
+    width: 450px;
+    height: 700px;
+    border-radius: 15px;
+}    
+.section .expereence {
+    width: 150px;
+    height: 110px;
+    padding-left: 40px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    bottom: 370px;
+    left: 350px;
+    box-shadow: 2px 2px 25px #999;
+}
+.section .expereence div {
+    font-size: 50px;
+    font-weight: 500;
+    color: red;
+    
+}
+.section .expereence p {
+    position: relative;
+    bottom: 15px;color: #999;
+}
+.container .section:nth-child(2) {
+    width: 500px; 
+    height: 700px;
+    margin-top: 50px;
+}
+.page-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.feat {
+    position: relative;
+    left: 50px;
+}
+.feat div {
+    position: relative;
+    background-color: #fb9e9e;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px dashed #f13a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 70px;
+    top: 60px;
+}
+.feat i {
+    font-size: 30px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);   */
+}
+button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #f13a3a;
+    font-weight: 600;
+    border-radius: 15px;
+    position: relative;
+    right: 30px;
+}
